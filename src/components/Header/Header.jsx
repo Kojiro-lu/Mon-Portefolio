@@ -1,16 +1,16 @@
-import "./Header.css";
-import logo from "../assets/logo.png"; // remplace par ton logo réel
-import NavBarre from "./NavBarre";
+import "../Header/Header.css";
+import logo from "../../assets/logo.png";
+import NavBar from "../NavBar/NavBar";
 
 function Header() {
   return (
     <header className="header">
       <img
         src={logo}
-        alt="Ton Nom - Développeur Front-End"
+        alt="Anthony Vaudeville - Intégrateur Web"
         className="logo-image"
       />
-      <NavBarre />
+      <NavBar />
     </header>
   );
 }
