@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Booki",
+    "image": "/assets/miniatures-sites/booki.webp",
+    "description": "Portfolio d’une architecte d’intérieur",
+    "technologies": ["React", "Sass", "Framer Motion"]
+  },
+  {
+    "id": 2,
+    "title": "Portfolio Sophie Bluel",
+    "image": "/assets/miniatures-sites/portfoliosophiebluel.webp",
+    "description": "Portfolio d’une architecte d’intérieur",
+    "technologies": ["Javascript"]
+  },
+  {
+    "id": 3,
+    "title": "Oh My Food",
+    "image": "/assets/miniatures-sites/ohmyfood.webp",
+    "description": "Site pour un restaurant",
+    "technologies": ["Javascript"]
+  },
+  {
+    "id": 4,
+    "title": "724 Events",
+    "image": "/assets/miniatures-sites/724events.webp",
+    "description": "Site pour une agence d'évènmentiel",
+    "technologies": ["Javascript"]
+  }
+]
