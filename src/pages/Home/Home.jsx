@@ -1,11 +1,11 @@
-import React from "react";
 import "../Home/Home.css";
+import Hero from "../../components/Hero/Hero";
 
 function Home() {
   return (
-    <main>
-      <h1>Bienvenue sur mon portfolio</h1>
-    </main>
+    <>
+      <Hero />
+    </>
   );
 }
 

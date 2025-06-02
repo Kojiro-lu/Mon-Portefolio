@@ -1,0 +1,5 @@
+.hero {
+  background-image: url("../../assets/images/fond-hero.webp");
+  background-size: cover;
+  height: 80vh;
+}
