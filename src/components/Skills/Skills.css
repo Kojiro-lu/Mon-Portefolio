@@ -1,8 +1,40 @@
 .skills-container {
-  background-color: black;
-  min-height: 350px;
+  background-color: #0e1a2b;
+  padding: 4rem 2rem;
+  text-align: center;
 }
 
-.skills-container h1 {
+.skills-title {
   color: white;
+  margin-bottom: 2rem;
+}
+
+.skills-bubbles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.skill-bubble {
+  background: white;
+  padding: 1rem;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.skill-bubble:hover {
+  transform: scale(1.1);
+}
+
+.skill-bubble img {
+  width: 40px;
+  height: 40px;
 }

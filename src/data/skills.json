@@ -1,0 +1,38 @@
+[
+  {
+    "name": "HTML",
+    "logo": "html5.png"
+  },
+  {
+    "name": "CSS",
+    "logo": "css.png"
+  },
+  {
+    "name": "Javascript",
+    "logo": "javascript.png"
+  },
+  {
+    "name": "ReactJS",
+    "logo": "react.png"
+  },
+  {
+    "name": "NodeJS",
+    "logo": "nodejs.png"
+  },
+  {
+    "name": "Sass",
+    "logo": "sass.webp"
+  },
+  {
+    "name": "Redux",
+    "logo": "redux.png"
+  },
+  {
+    "name": "GitHub",
+    "logo": "github.png"
+  },
+  {
+    "name": "SEO",
+    "logo": "seo.png"
+  }
+]
