@@ -1,7 +1,7 @@
 import "./about.css";
 import AboutMoi from "../../assets/images/about-moi.jpg";
 
-const About = () => {
+function About() {
   return (
     <>
       <section className="about-container">
@@ -18,6 +18,6 @@ const About = () => {
       </section>
     </>
   );
-};
+}
 
 export default About;

@@ -1,6 +1,6 @@
 import "./Hero.css";
 
-const Hero = () => {
+function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
@@ -10,6 +10,6 @@ const Hero = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Hero;

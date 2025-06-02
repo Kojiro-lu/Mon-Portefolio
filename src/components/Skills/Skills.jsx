@@ -1,11 +1,13 @@
 import "./skills.css";
 
-const Skills = () => {
+function Skills() {
   return (
     <>
-      <section className="skills-container"></section>
+      <section className="skills-container">
+        <h1>Compétences</h1>
+      </section>
     </>
   );
-};
+}
 
 export default Skills;
