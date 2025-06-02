@@ -1,12 +1,13 @@
 .skills-container {
-  background-color: #0e1a2b;
-  padding: 4rem 2rem;
+  background-color: #7e9fce;
+  padding: 3rem 2rem;
   text-align: center;
 }
 
 .skills-title {
   color: white;
   margin-bottom: 2rem;
+  margin-top: 0;
 }
 
 .skills-bubbles {
@@ -35,6 +36,10 @@
 }
 
 .skill-bubble img {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
+}
+
+.skill-bubble p {
+  margin: 1px;
 }
