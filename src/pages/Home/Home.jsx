@@ -1,10 +1,12 @@
 import "../Home/Home.css";
 import Hero from "../../components/Hero/Hero";
+import About from "../../components/About/About";
 
 function Home() {
   return (
     <>
       <Hero />
+      <About />
     </>
   );
 }
