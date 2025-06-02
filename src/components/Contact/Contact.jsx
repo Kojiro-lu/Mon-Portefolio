@@ -1,67 +1,54 @@
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useForm, ValidationError } from "@formspree/react";
 import "./Contact.css";
 
 function Contact() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  const [state, handleSubmit] = useForm("xdkzozne");
+  const [showSuccess, setShowSuccess] = useState(false);
 
-  const [submitted, setSubmitted] = useState(false);
+  useEffect(() => {
+    if (state.succeeded) {
+      setShowSuccess(true);
+      const timer = setTimeout(() => setShowSuccess(false), 4000);
+      return () => clearTimeout(timer);
+    }
+  }, [state.succeeded]);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Tu peux ajouter des vérifications ici
-    console.log("Formulaire soumis :", formData);
-    setSubmitted(true);
-    setFormData({ name: "", email: "", message: "" });
-  };
+  if (showSuccess) {
+    return (
+      <div className="success-message">
+        Merci ! Je reviendrai vers vous rapidement. 😊
+      </div>
+    );
+  }
 
   return (
-    <section className="contact-container" id="contact">
-      <h2>Me contacter</h2>
-      {submitted ? (
-        <p className="success-message">Merci pour votre message !</p>
-      ) : (
-        <form className="contact-form" onSubmit={handleSubmit}>
-          <label>
-            Nom :
-            <input
-              type="text"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              required
-            />
-          </label>
-          <label>
-            Email :
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              required
-            />
-          </label>
-          <label>
-            Message :
-            <textarea
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              required
-            />
-          </label>
-          <button type="submit">Envoyer</button>
-        </form>
-      )}
+    <section id="contact" className="contact-section">
+      <h2 className="contact-title">Me Contacter</h2>
+      <p className="contact-subtitle">
+        Une question ? Un projet ? Écrivez-moi !
+      </p>
+      <form onSubmit={handleSubmit} className="contact-form">
+        <label htmlFor="name">Nom et prénom</label>
+        <input id="name" type="text" name="name" required />
+        <ValidationError prefix="Nom" field="name" errors={state.errors} />
+
+        <label htmlFor="email">Adresse mail</label>
+        <input id="email" type="email" name="email" required />
+        <ValidationError prefix="Email" field="email" errors={state.errors} />
+
+        <label htmlFor="message">Message</label>
+        <textarea id="message" name="message" required />
+        <ValidationError
+          prefix="Message"
+          field="message"
+          errors={state.errors}
+        />
+
+        <button type="submit" disabled={state.submitting}>
+          Envoyer
+        </button>
+      </form>
     </section>
   );
 }
