@@ -50,3 +50,8 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   border: 3px solid #7e9fce;
 }
+@media (max-width: 768px) {
+  .about-container {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
