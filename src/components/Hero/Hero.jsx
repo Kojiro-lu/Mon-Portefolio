@@ -1,9 +1,17 @@
 import "./Hero.css";
 import { motion } from "framer-motion";
+import backgroundHero from "../../assets/images/fond-hero.webp";
 
 function Hero() {
   return (
     <section className="hero">
+      <img
+        src={backgroundHero}
+        alt="hero background"
+        className="hero-background"
+        loading="eager"
+        aria-hidden="true"
+      />
       <div className="hero-content">
         <motion.h1
           className="hero-title"
