@@ -7,7 +7,8 @@ function Cards() {
       {projectsData.map((project) => (
         <div className="card" key={project.id}>
           <img src={project.image} alt={project.title} />
-          <h3>{project.title}</h3>
+          <h3 className="title">{project.title}</h3>
+          <div className="description">{project.description}</div>
           <div className="tech-list">
             {project.technologies.map((tech, index) => (
               <span key={index} className="tech">

@@ -1,5 +1,5 @@
 import "./about.css";
-import AboutMoi from "../../assets/images/about-moi.jpg";
+import AboutMoi from "../../assets/images/about-moi.webp";
 
 function About() {
   return (
