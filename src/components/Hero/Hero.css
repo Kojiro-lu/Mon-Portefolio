@@ -24,6 +24,10 @@
   margin-bottom: 0.5rem;
 }
 
+.hero-subtitle strong {
+  color: #7e9fce;
+}
+
 .hero-description {
   font-size: 1.2rem;
 }
