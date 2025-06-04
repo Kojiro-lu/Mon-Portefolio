@@ -24,7 +24,7 @@ function Cards() {
             className="ensavoirplus-container"
             onClick={() => handleOpenModal(project)}
           >
-            <span className="ensavoirplus-text">En savoir plus</span>
+            <span className="ensavoirplus-text">Voir le projet</span>
           </button>
         </div>
       ))}
