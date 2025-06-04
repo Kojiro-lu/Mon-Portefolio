@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Sophie Bluel",
     "image": "/Mon-Portefolio/assets/miniatures-sites/portfoliosophiebluel.webp",
-    "titledescription": "site internet d'une architecte d'intérieur",
+    "titledescription": "Site d'architecte d'intérieur",
     "description": "Développement d’une interface dynamique en JavaScript à partir d’un HTML fourni. Manipulation du DOM, gestion des événements et création d’une modale pour l’ajout de médias. Mise en place d’une page de connexion sécurisée pour l’administrateur. Communication avec une API REST pour afficher, ajouter et supprimer dynamiquement les projets.",
     "technologies": [
       "#Html5",

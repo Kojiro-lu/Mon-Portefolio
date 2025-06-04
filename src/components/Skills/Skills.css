@@ -45,6 +45,9 @@
 }
 
 @media (max-width: 768px) {
+  .skills-title {
+    font-size: 2rem;
+  }
   .skill-bubble {
     width: 70px;
     height: 70px;

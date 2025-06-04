@@ -7,14 +7,14 @@ function About() {
       <div className="about-section">
         <div className="about-content">
           <h2 className="about-title">À propos de moi</h2>
-          <h3 className="about-subtitle">Intégrateur Web</h3>
+          <h3 className="about-subtitle">Développeur Front-end</h3>
           <p className="about-text">
-            Passionné par le web et spécialisé dans l'intégration front-end, je
-            transforme vos maquettes en sites web modernes, rapides et
-            accessibles. À l'écoute de vos besoins, je mets un point d'honneur à
-            créer des interfaces claires, esthétiques et efficaces, pour offrir
-            à vos utilisateurs une expérience optimale. Mon objectif : vous
-            accompagner dans la réalisation de votre projet digital, avec
+            Passionné par le web et spécialisé dans le développement de site et
+            application, je transforme vos maquettes en sites web modernes,
+            rapides et accessibles. À l'écoute de vos besoins, je mets un point
+            d'honneur à créer des interfaces claires, esthétiques et efficaces,
+            pour offrir à vos utilisateurs une expérience optimale. Mon objectif
+            : vous accompagner dans la réalisation de votre projet digital, avec
             rigueur, créativité et réactivité.
           </p>
         </div>

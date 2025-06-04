@@ -56,25 +56,33 @@
 }
 
 .modal-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 50%;
   max-height: 250px;
   font-size: 1.1rem;
   color: #555;
-  margin-bottom: 1rem;
+  border-left: 2px solid #7e9fce;
+  padding: 0.5rem 0;
 }
 
-.modale-description h4 {
+.modal-description h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.modal-description p {
   font-size: 0.8rem;
-}
-
-.modale-description p {
-  font-size: 0.5rem;
+  padding: 0.5rem;
 }
 
 .modal-technos {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  justify-content: center;
 }
 
 .modal-tech {
@@ -93,5 +101,32 @@
   to {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    max-height: 600px;
+  }
+  .modal-description {
+    width: 100%;
+    border-left: none;
+    border-top: 2px solid #7e9fce;
+  }
+  .modal-description h4 {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  .modal-image-and-description {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin: 0 0 0.5rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal-tech {
+    font-size: 0.6rem;
   }
 }
