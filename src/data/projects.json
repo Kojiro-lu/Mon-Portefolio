@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Booki",
-    "image": "/assets/miniatures-sites/booki.webp",
+    "image": "/Mon-Portefolio/assets/miniatures-sites/booki.webp",
     "titledescription": "Site d'agence de voyage",
     "description": "Intégration responsive de la page d’accueil d’un site de réservation d’hébergements et d’activités. Maquettes Figma respectées au pixel près pour mobile, tablette et desktop. Utilisation exclusive de HTML5 et CSS3 avec une attention particulière portée à la structure sémantique, à l’accessibilité de base et à la compatibilité multi-écrans.",
     "technologies": ["#Html5", "#Css3", "#Responsive Design", "#Media Queries"]
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "Sophie Bluel",
-    "image": "/assets/miniatures-sites/portfoliosophiebluel.webp",
+    "image": "/Mon-Portefolio/assets/miniatures-sites/portfoliosophiebluel.webp",
     "titledescription": "site internet d'une architecte d'intérieur",
     "description": "Développement d’une interface dynamique en JavaScript à partir d’un HTML fourni. Manipulation du DOM, gestion des événements et création d’une modale pour l’ajout de médias. Mise en place d’une page de connexion sécurisée pour l’administrateur. Communication avec une API REST pour afficher, ajouter et supprimer dynamiquement les projets.",
     "technologies": [
@@ -25,7 +25,7 @@
   {
     "id": 3,
     "title": "Oh My Food",
-    "image": "/assets/miniatures-sites/ohmyfood.webp",
+    "image": "/Mon-Portefolio/assets/miniatures-sites/ohmyfood.webp",
     "titledescription": "Application mobile-first de menus de restaurants",
     "description": "Développement d’un site mobile-first affichant les menus de quatre restaurants. Intégration des maquettes en HTML5 et Sass. Utilisation de partials, variables et mixins pour un code CSS structuré. Responsive design complet, versionné sur GitHub et optimisé pour un affichage fluide sur tous les supports.",
     "technologies": [
@@ -39,7 +39,7 @@
   {
     "id": 4,
     "title": "Kasa",
-    "image": "/assets/miniatures-sites/kasa.webp",
+    "image": "/Mon-Portefolio/assets/miniatures-sites/kasa.webp",
     "titledescription": "Site web location d’appartements",
     "description": "Développement d’une application web moderne en React avec gestion du routage via React Router. Création de composants modulaires, utilisation des props, state et gestion des événements. Routage dynamique pour l’affichage des pages logements.",
     "technologies": [
@@ -53,7 +53,7 @@
   {
     "id": 5,
     "title": "Nina Carducci",
-    "image": "/assets/miniatures-sites/ninacarducci.webp",
+    "image": "/Mon-Portefolio/assets/miniatures-sites/ninacarducci.webp",
     "titledescription": "Optimisation SEO & performance d’un site vitrine",
     "description": "Optimisation des performances, de l’accessibilité et du SEO pour un site de photographe. Analyse complète réalisée à l’aide des outils Lighthouse et Wave afin d’identifier les points bloquants. Refonte du code HTML pour améliorer la sémantique, optimisation des images, amélioration du temps de chargement et mise en place de bonnes pratiques SEO. Résultat : un site plus rapide, mieux référencé et plus accessible.",
     "technologies": [
