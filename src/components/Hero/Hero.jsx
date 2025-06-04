@@ -27,7 +27,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
         >
-          Je suis <strong>Anthony Vaudeville</strong>, Développeur Frontend.
+          Je suis <strong>Anthony Vaudeville</strong>, Développeur Front-end.
         </motion.h1>
         <motion.p
           className="hero-description"
