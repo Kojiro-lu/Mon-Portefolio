@@ -20,6 +20,9 @@
 
 .hero-content {
   max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .hero-title {
@@ -43,6 +46,7 @@
 @media (max-width: 768px) {
   .hero {
     height: 35vh;
+    padding: 1rem;
   }
   .hero-title {
     font-size: 2rem;

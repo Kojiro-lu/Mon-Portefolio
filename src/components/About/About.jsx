@@ -6,8 +6,8 @@ function About() {
     <section className="about-container" id="about">
       <div className="about-section">
         <div className="about-content">
-          <h1 className="about-title">À propos de moi</h1>
-          <h2 className="about-subtitle">Intégrateur Web</h2>
+          <h2 className="about-title">À propos de moi</h2>
+          <h3 className="about-subtitle">Intégrateur Web</h3>
           <p className="about-text">
             Passionné par le web et spécialisé dans l'intégration front-end, je
             transforme vos maquettes en sites web modernes, rapides et

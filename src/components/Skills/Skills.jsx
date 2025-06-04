@@ -9,7 +9,7 @@ function importLogo(name) {
 function Skills() {
   return (
     <section className="skills-container" id="skills">
-      <h1 className="skills-title">Compétences</h1>
+      <h2 className="skills-title">Compétences</h2>
       <div className="skills-bubbles">
         {skillsData.map((skill, index) => (
           <motion.div

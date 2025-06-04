@@ -4,7 +4,7 @@ import Cards from "../Cards/Cards";
 function Portfolio() {
   return (
     <section className="portfolio-section" id="portfolio">
-      <h1>Portfolio</h1>
+      <h2 className="portfolio-title">Portfolio</h2>
       <Cards />
     </section>
   );

@@ -9,7 +9,8 @@
 }
 
 .contact-title {
-  margin: 0 0 1rem 0;
+  font-size: 2.5rem;
+  margin: 0 0 1.5rem 0;
 }
 
 .contact-subtitle {
@@ -40,7 +41,6 @@
   margin-bottom: 20px;
   padding: 12px;
   transition: border 0.3s ease;
-  width: 90%;
 }
 
 .contact-form input:focus,
@@ -83,6 +83,6 @@
 }
 @media (max-width: 768px) {
   .contact-form {
-    min-width: 15rem;
+    min-width: 20rem;
   }
 }

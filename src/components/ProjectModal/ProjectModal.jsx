@@ -7,7 +7,7 @@ function ProjectModal({ project, onClose }) {
         <button className="modal-close" onClick={onClose}>
           &times;
         </button>
-        <h2 className="modal-title">{project.title}</h2>
+        <h3 className="modal-title">{project.title}</h3>
         <div className="modal-image-and-description">
           <img
             src={project.image}
@@ -15,7 +15,7 @@ function ProjectModal({ project, onClose }) {
             className="modal-image"
           />
           <div className="modal-description">
-            <p>{project.titledescription}</p>
+            <h4>{project.titledescription}</h4>
             <p>{project.description}</p>
           </div>
         </div>
