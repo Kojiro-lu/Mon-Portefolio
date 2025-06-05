@@ -19,6 +19,28 @@ function ProjectModal({ project, onClose }) {
             <p>{project.description}</p>
           </div>
         </div>
+        <div className="modal-buttons">
+          {project.github && (
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="modal-button"
+            >
+              Voir le repo GitHub
+            </a>
+          )}
+          {project.demo && (
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="modal-button"
+            >
+              Voir le site
+            </a>
+          )}
+        </div>
         <div className="modal-technos">
           {project.technologies.map((tech, index) => (
             <span key={index} className="modal-tech">
