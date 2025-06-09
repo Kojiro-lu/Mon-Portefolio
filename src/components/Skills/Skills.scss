@@ -16,34 +16,6 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-
-    .skill-bubble {
-      background: $background-color-1;
-      border-radius: 50%;
-      width: 115px;
-      height: 115px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-      transition: transform 0.3s;
-
-      &:hover {
-        transform: scale(1.1);
-      }
-
-      img {
-        width: 60px;
-        height: 60px;
-      }
-
-      p {
-        margin: 0.1rem;
-        font-size: 15px;
-        color: $text-color;
-      }
-    }
   }
 }
 
@@ -54,19 +26,10 @@
     }
 
     .skills-bubbles {
-      .skill-bubble {
-        width: 70px;
-        height: 70px;
-
-        img {
-          width: 30px;
-          height: 30px;
-        }
-
-        p {
-          font-size: 11px;
-        }
-      }
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
     }
   }
 }
