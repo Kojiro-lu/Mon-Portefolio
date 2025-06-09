@@ -1,5 +1,5 @@
 import "../Header/Header.scss";
-import logo from "../../assets/logo.webp";
+import logo from "../../assets/logoavdigital.webp";
 import NavBar from "../NavBar/NavBar";
 
 function Header() {
@@ -7,7 +7,7 @@ function Header() {
     <header className="header">
       <img
         src={logo}
-        alt="Anthony Vaudeville - Intégrateur Web"
+        alt="Anthony Vaudeville - Dèveloppeur Web"
         className="logo-image"
         loading="eager"
       />

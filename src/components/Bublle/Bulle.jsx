@@ -1,4 +1,3 @@
-// src/components/Skills/Bulle.jsx
 import { motion } from "framer-motion";
 import "./Bulle.scss";
 
