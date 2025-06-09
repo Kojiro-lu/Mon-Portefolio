@@ -1,63 +1,72 @@
+@import "../../styles/variables";
+
 .skills-container {
-  background-color: rgba(126, 159, 206, 0.7);
-  padding: 2rem 3rem 3rem 3rem;
+  background-color: $skills-background-color;
+  padding: 2rem 3rem 3rem;
   text-align: center;
-}
 
-.skills-title {
-  color: white;
-  font-size: 2.5rem;
-  margin: 0 0 2rem 0;
-}
+  .skills-title {
+    color: $text-color;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
 
-.skills-bubbles {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-}
+  .skills-bubbles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
 
-.skill-bubble {
-  background: white;
-  border-radius: 50%;
-  width: 115px;
-  height: 115px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s;
-}
+    .skill-bubble {
+      background: $background-color-1;
+      border-radius: 50%;
+      width: 115px;
+      height: 115px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s;
 
-.skill-bubble:hover {
-  transform: scale(1.1);
-}
+      &:hover {
+        transform: scale(1.1);
+      }
 
-.skill-bubble img {
-  width: 60px;
-  height: 60px;
-}
+      img {
+        width: 60px;
+        height: 60px;
+      }
 
-.skill-bubble p {
-  margin: 0.1rem;
-  font-size: 15px;
+      p {
+        margin: 0.1rem;
+        font-size: 15px;
+        color: $text-color;
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
-  .skills-title {
-    font-size: 2rem;
-  }
-  .skill-bubble {
-    width: 70px;
-    height: 70px;
-  }
-  .skill-bubble img {
-    width: 30px;
-    height: 30px;
-  }
-  .skill-bubble p {
-    margin: 0.1rem;
-    font-size: 11px;
+  .skills-container {
+    .skills-title {
+      font-size: 2rem;
+    }
+
+    .skills-bubbles {
+      .skill-bubble {
+        width: 70px;
+        height: 70px;
+
+        img {
+          width: 30px;
+          height: 30px;
+        }
+
+        p {
+          font-size: 11px;
+        }
+      }
+    }
   }
 }

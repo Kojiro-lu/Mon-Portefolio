@@ -1,62 +1,66 @@
+@import "../../styles/variables";
+
 .nav {
   display: flex;
   align-items: center;
   gap: 20px;
-}
 
-.burger {
-  display: none;
-  flex-direction: column;
-  gap: 5px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 10px;
-}
-
-.burger-bar {
-  width: 25px;
-  height: 3px;
-  background-color: black;
-  border-radius: 2px;
-}
-
-.nav-links {
-  display: flex;
-  gap: 20px;
-}
-
-.nav-links a {
-  color: black;
-  text-decoration: none;
-  font-size: 1.1rem;
-  padding: 10px;
-  text-align: center;
-}
-
-.nav-links a:hover {
-  color: white;
-  background-color: #7e9fce;
-}
-
-@media (max-width: 768px) {
   .burger {
-    display: flex;
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+
+    .burger-bar {
+      width: 25px;
+      height: 3px;
+      background-color: $text-color;
+      border-radius: 2px;
+    }
   }
 
   .nav-links {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: white;
-    flex-direction: column;
-    gap: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-links.open {
     display: flex;
+    gap: 20px;
+
+    a {
+      color: $text-color;
+      text-decoration: none;
+      font-size: 1.1rem;
+      padding: 10px;
+      text-align: center;
+
+      &:hover {
+        color: $text-color-2;
+        background-color: $primary-color;
+      }
+    }
+
+    &.open {
+      display: flex;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    .burger {
+      display: flex;
+    }
+
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: $background-color-1;
+      flex-direction: column;
+      gap: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
   }
 }
