@@ -1,4 +1,4 @@
-import "./Hero.css";
+import "./Hero.scss";
 import { motion } from "framer-motion";
 import backgroundHero from "../../assets/images/fond-hero.webp";
 

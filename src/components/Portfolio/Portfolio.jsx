@@ -1,4 +1,4 @@
-import "./Portfolio.css";
+import "./Portfolio.scss";
 import Cards from "../Cards/Cards";
 
 function Portfolio() {

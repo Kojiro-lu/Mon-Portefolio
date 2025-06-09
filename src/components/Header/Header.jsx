@@ -1,4 +1,4 @@
-import "../Header/Header.css";
+import "../Header/Header.scss";
 import logo from "../../assets/logo.webp";
 import NavBar from "../NavBar/NavBar";
 

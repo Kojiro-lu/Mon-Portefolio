@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Cards.css";
+import "./Cards.scss";
 import projectsData from "../../data/projects.json";
 import ProjectModal from "../ProjectModal/ProjectModal";
 

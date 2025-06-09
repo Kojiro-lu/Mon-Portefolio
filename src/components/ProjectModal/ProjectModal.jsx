@@ -1,4 +1,4 @@
-import "./ProjectModal.css";
+import "./ProjectModal.scss";
 
 function ProjectModal({ project, onClose }) {
   return (

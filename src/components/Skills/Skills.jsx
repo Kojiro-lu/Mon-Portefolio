@@ -1,4 +1,4 @@
-import "./skills.css";
+import "./skills.scss";
 import { motion } from "framer-motion";
 import skillsData from "../../data/skills.json";
 

@@ -1,4 +1,4 @@
-import "./about.css";
+import "./about.scss";
 import AboutMoi from "../../assets/images/about-moi.webp";
 
 function About() {
