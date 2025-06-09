@@ -1,6 +1,22 @@
 [
   {
     "id": 1,
+    "title": "Mon Portfolio",
+    "image": "/Mon-Portefolio/assets/miniatures-sites/monportefolio.webp",
+    "titledescription": "Portfolio professionnel React & Vite",
+    "description": "Portfolio personnel développé avec React, Vite et Sass pour présenter mes projets, compétences et parcours. Il intègre des animations avec Framer Motion, une navigation responsive et un design moderne entièrement personnalisé.",
+    "technologies": [
+      "#React",
+      "#Vite",
+      "#Sass",
+      "#Html5 & Css3",
+      "#Framer Motion"
+    ],
+    "github": "https://github.com/Kojiro-lu/Mon-Portefolio",
+    "demo": "https://kojiro-lu.github.io/Mon-Portefolio/"
+  },
+  {
+    "id": 2,
     "title": "Booki",
     "image": "/Mon-Portefolio/assets/miniatures-sites/booki.webp",
     "titledescription": "Site d'agence de voyage",
@@ -10,7 +26,7 @@
     "demo": ""
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Sophie Bluel",
     "image": "/Mon-Portefolio/assets/miniatures-sites/portfoliosophiebluel.webp",
     "titledescription": "Site d'architecte d'intérieur",
@@ -27,7 +43,7 @@
     "demo": ""
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Oh My Food",
     "image": "/Mon-Portefolio/assets/miniatures-sites/ohmyfood.webp",
     "titledescription": "Application mobile-first de menus de restaurants",
@@ -43,7 +59,7 @@
     "demo": "https://kojiro-lu.github.io/ohmyfood/"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Kasa",
     "image": "/Mon-Portefolio/assets/miniatures-sites/kasa.webp",
     "titledescription": "Site web location d’appartements",
@@ -59,7 +75,7 @@
     "demo": ""
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Nina Carducci",
     "image": "/Mon-Portefolio/assets/miniatures-sites/ninacarducci.webp",
     "titledescription": "Optimisation SEO & performance d’un site vitrine",
