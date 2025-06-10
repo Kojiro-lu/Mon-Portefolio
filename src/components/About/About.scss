@@ -1,4 +1,4 @@
-@import "../../styles/variables";
+@use "../../styles/globals" as *;
 
 .about {
   &-container {
@@ -37,7 +37,7 @@
   &-text {
     font-size: 1.1rem;
     line-height: 1.6;
-    color: darken($text-color, 10%); // équivalent de #444
+    color: $tertiary-color;
   }
 
   &-image-container {

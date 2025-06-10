@@ -1,4 +1,4 @@
-@import "../../styles/variables";
+@use "../../styles/globals" as *;
 
 .modal-overlay {
   position: fixed;
@@ -63,7 +63,7 @@
     width: 50%;
     max-height: 250px;
     font-size: 1.1rem;
-    color: darken($text-color, 10%);
+    color: $tertiary-color;
     border-left: 2px solid $primary-color;
     padding: 0.5rem 0;
 
